@@ -5,35 +5,35 @@
   
 
 <!-- form style -->
-  <style class="container" >
-    @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+<style class="container" >
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 * {
-  margin: 0;
-  padding: 0;
-  /* box-sizing: border-box; */
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+margin: 0;
+padding: 0;
+/* box-sizing: border-box; */
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-o-font-smoothing: antialiased;
+font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
 }
 
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  font-size: 12px;
-  line-height: 30px;
-  color: rgb(255, 255, 255);
+font-weight: 100;
+font-size: 12px;
+line-height: 30px;
+color: rgb(0, 0, 0);
 }
 
 .container {
-  max-width: 300px;
-  width: 100%;
-  margin:  auto;
-  position: center;
-  height: 50px;
+max-width: 300px;
+width: 100%;
+margin:  auto;
+margin-bottom: ;
+position: center;
+height: 10px;
 }
 
 #contact input[type="text"],
@@ -43,35 +43,37 @@ body {
 #contact button[type="submit"] ,
 #contact select[type="Emoji"]
 {
-  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
 }
 
 #contact {
-  padding: 15px;
-  margin-block-start: 150px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+padding: 15px;
+
+min-height: 20%;
+width: 20%;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 #contact h3 {
-  display: block;
-  font-size: 30px;
-  font-weight: 300;
-  margin-bottom: 10px;
+display: block;
+font-size: 30px;
+font-weight: 300;
+margin-bottom: 10px;
 }
 
 #contact h4 {
-  margin: 5px 0 15px;
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
+margin: 5px 0 15px;
+display: block;
+font-size: 13px;
+font-weight: 400;
 }
 
 fieldset {
-  border: medium none !important;
-  margin: 0 0 10px;
-  min-width: 100%;
-  padding: 0;
-  width: 100%;
+border: medium none !important;
+margin: 0 0 10px;
+min-width: 100%;
+padding: 0;
+width: 100%;
 }
 
 #contact input[type="text"],
@@ -79,11 +81,11 @@ fieldset {
 #contact input[type="tel"],
 #contact textarea,
 #contact select[type="Emoji"] {
-  width: 100%;
-  border: 1px solid #ccc;
-  background: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
+width: 100%;
+border: 1px solid #ccc;
+background: #FFF;
+margin: 0 0 5px;
+padding: 10px;
 }
 
 #contact input[type="text"]:hover,
@@ -91,65 +93,51 @@ fieldset {
 #contact input[type="tel"]:hover,
 #contact textarea:hover,
 #contact select[type="Emoji"]:hover {
-  -webkit-transition: border-color 0.3s ease-in-out;
-  -moz-transition: border-color 0.3s ease-in-out;
-  transition: border-color 0.3s ease-in-out;
-  border: 1px solid #aaa;
+-webkit-transition: border-color 0.3s ease-in-out;
+-moz-transition: border-color 0.3s ease-in-out;
+transition: border-color 0.3s ease-in-out;
+border: 1px solid #aaa;
 }
 
 #contact textarea {
-  height: 100px;
-  max-width: 100%;
-  resize: none;
+height: 100px;
+max-width: 100%;
+resize: none;
 }
 
 #contact button[type="submit"] {
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  background: rgb(29, 75, 160);
-  color: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
-  font-size: 15px;
+cursor: pointer;
+width: 100%;
+border: none;
+background: rgb(29, 75, 160);
+color: #FFF;
+margin: 0 0 5px;
+padding: 10px;
+font-size: 15px;
 }
 
 #contact button[type="submit"]:hover {
-  background: rgb(116, 11, 60);
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
+background: rgb(116, 11, 60);
+-webkit-transition: background 0.3s ease-in-out;
+-moz-transition: background 0.3s ease-in-out;
+transition: background-color 0.3s ease-in-out;
 }
 
 #contact button[type="submit"]:active {
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .copyright {
-  text-align: center;
+text-align: center;
 }
 
 #contact input:focus,
 #contact textarea:focus {
-  outline: 0;
-  border: 1px solid #aaa;
+outline: 0;
+border: 1px solid rgb(163, 252, 47);
 }
 
-::-webkit-input-placeholder {
-  color: #888;
-}
 
-:-moz-placeholder {
-  color: #888;
-}
-
-::-moz-placeholder {
-  color: #888;
-}
-
-:-ms-input-placeholder {
-  color: #888;
-}
 </style>
 
 <!-- menu style -->
@@ -179,12 +167,12 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: hsl(355, 100%, 73%);
+  background-color: hsl(147, 100%, 46%);
 }
 
 .active {
   float: right;
-  background-color: #8B008B;
+  background-color: rgb(29, 179, 238);
 }
 </style>
 
@@ -192,7 +180,7 @@ li a:hover:not(.active) {
  <style>
     body {
      /* background-image: url("https://thewallpaper.co//wp-content/uploads/2017/09preview/samsung-azalea-background-sunsets-view-windows-desktop-images-sunrises-and-widescreen-sky-mountains-nature-scenery.jpg");*/
-      background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/asheville-nc-blue-ridge-parkway-spring-flowers-scenic-landscape-dave-allen.jpg");
+      background-image: url("https://www.eyarok.org.il/images/TripImages/adminUploads/53487b87-c007-4cb0-8786-a28898a1afb0_big.jpg");
       background-repeat: no-repeat;
       background-attachment: fixed;  
       background-size: cover;
@@ -208,115 +196,7 @@ li a:hover:not(.active) {
       margin-right: auto;
     }
 
-    .logo{
-        margin-left: 0;
-        text-align: left;
-        margin-top:5px ;
-    }
-  
     </style>
-
-<!-- photos -->
-<style>
-  * {box-sizing: border-box}
-  body {font-family: Verdana, sans-serif; margin:0}
-  .mySlides {display: none}
-  img {vertical-align: middle;}
-  
-  /* Slideshow container */
-  .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
-  }
-  </style>
-
 
 </head>
 
@@ -324,23 +204,20 @@ li a:hover:not(.active) {
     <!----- menu ----->
     <div id='cssmenu'>
      <ul style="font-size: 4mm;">
-       <li class='active'><a href='#about'><b>Home</b></a></li>
-       <li><a href='#about'><b>About Me</b></a></li>
+       <li class='active'><a href='#about'><b>About Me</b></a></li>
        <li><a href='#photos'><b>My Photos</b></a></li>
        <li><a href='#playlist'><b>My Playlist</b></a></li>
        <li><a href='#like'><b>Like</b></a></li>
        <li><a href='#qrcoder'><b>QR code</b></a></li>
        <li><a href='#Q&A'><b>Q&A</b></a></li>
        <li><a href='#contact'><b>Contact Me</b></a></li>
-      
      </ul>
     </div>
 
     <div style="height:10000px;">
     <!----- about ----->
         <section 
-        id="about" class="section" style="color: rgb(0, 0, 0); text-shadow: 2px 2px 4px #ffd4d4; text-align: right;font-size:5mm;margin-right: 150px;">
-        <br/>
+        id="about" class="section" style="color: rgb(255, 250, 250); text-shadow: 2px 2px 4px #000000; text-align: right;font-size:5mm;margin-right: 50px;">
         <br/>
         <br/>
         <br/>
@@ -348,17 +225,31 @@ li a:hover:not(.active) {
         <h1 style="color: rgb(255, 255, 255);font-size:15mm ;text-align: center;text-shadow: 2px 2px 4px #000000" >דניאל ויהודית צרור  </h1>
         <br/>
         <br/>
+
         <h1 style="color: rgb(0, 0, 0); text-shadow: 2px 2px 4px #000000; text-align: center;font-size: 10mm;"> About Me </h1>
         <br/>
+        <u style="font-size: 8mm;"><b> קצת על חמי וחמותי דניאל ויהודית צרור...</b></u>
+        <p style="font-size: 7mm;">
+          דניאל הוא בן 75 ויהודית בת 68. הם ילידי טוניס. הכירו בארץ ישראל והתחתנו בגיל 20.
         <br/>
-        <u><b> תחומי עיסוק:</b></u>
-            <li><b>תאונות דרכים</b></li>
-            <li><b>נזקי גוף</b></li>
-            <li><b> רפואית</b></li>
-            <li><b>תביעות </b></li>
-            <li><b>תאונות תלמידים</b></li>
-            <li><b>פטור ממס' הכנסה דיני עבודה</b></li>
-            <li><b>אזרחי צוואות וירושות יפוי כח מתמשך</b></li>
+
+          לדניאל ויהודית יש 5 ילדים - איילה שמעוני, עוזי צרור, איריס לוי, לילך מאיר ובעלי הראל צרור.
+        <br/>
+        יש להם 28 נכדים ואתמול ב6/4/2020 נולד להם במזל טוב ובשעה טובה נין ראשון.
+        <br/>
+        דניאל ויהודית הם אנשי משפחה ופנסיונרים. הם אנשים בעלי נתינה ענקית ומאוד אוהבים להיות בחיק המשפחה.
+        <br/>
+        בנוסף, הם ממש אוהבים את הטבע ולעשות בזמנם הפנוי טיולים.
+        <br/>
+        לאור המצב של הקורונה וגילם המבוגר הם כרגע בבידוד ולראשונה יעשו את החג לבד ולא בחיק המשפחה המורחבת
+        <br/>
+        הדבר מאוד מצער אותם במיוחד שהם אנשים שאוהבים לתת ולתרום לאחרים ולעשות למען משפחתם
+        <br/>
+        עם זאת, המשפחה הקרובה מבקרת את ההורים דרך גדר הגינה מדי פעם, שומרים על קשר טלפוני ומקווים שהמצב יעבור במהירות.
+
+        </p>    
+        <p> </p>
+        <p> </p>
         <br/>
         <br/>
         <br/>
@@ -373,15 +264,14 @@ li a:hover:not(.active) {
         <br/>
         <h2 style="color: rgb(0, 0, 0); text-shadow: 2px 2px 4px #000000; text-align: center;font-size: 10mm;"> My Photos </h2>
         <br/>
-        <br/>
         <span style="text-align: center">
           <div>
-              <img src="https://i.ibb.co/X2mLgd0/XRGK9752.jpg" height="300" width="450">
-              <img src="https://i.ibb.co/tKRnVDb/BMEJ0268.jpg" height="300" width="450"> 
+              <img src="https://i.ibb.co/X2mLgd0/XRGK9752.jpg" height="280" width="380">
+              <img src="https://i.ibb.co/tKRnVDb/BMEJ0268.jpg" height="280" width="380"> 
           </div>
           <div>
-              <img src="https://i.ibb.co/DgVW33V/10590530-10204866072720194-2265604680156241736-n.jpg" height="300" width="450">
-              <img src="https://i.ibb.co/b6T62N8/DSC9311.jpg" height="300" width="450">
+              <img src="https://i.ibb.co/DgVW33V/10590530-10204866072720194-2265604680156241736-n.jpg" height="280" width="380">
+              <img src="https://i.ibb.co/b6T62N8/DSC9311.jpg" height="280" width="380">
           </div>
           
         
@@ -407,7 +297,7 @@ li a:hover:not(.active) {
         <br/>
         <br/>
         <br/>
-        <iframe width="560" height="315" src="https://youtu.be/NAeRZs7Gveg" frameborder="0" 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NAeRZs7Gveg" frameborder="0" 
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="center" ></iframe>
         <br/>
         <br/>
@@ -481,92 +371,85 @@ li a:hover:not(.active) {
         </section>
 
     <!----- Q&A ----->
-        <section id="Q&A" class="section" style="color: rgb(0, 0, 0);  text-align: right;font-size:5mm; margin-right: 150px;" >
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+        <section id="Q&A" class="section" style="color: rgb(255, 255, 255);  text-align: right;font-size:5mm; margin-right: 50px;text-shadow: 2px 2px 4px #000000;" >
         <br/>
         <h5 style="color: rgb(0, 0, 0); text-shadow: 2px 2px 4px #000000; text-align: center;font-size: 10mm;margin-right: 0;">Questions & Answers </h5>
-        <br/>
-        <br/>
-        <br/>
         <h6 style="text-shadow: 2px 2px 4px #000000;color: rgb(255, 255, 255); font-size:7mm" ><b>Three main differences between Web1 , Web2 , Web3 : </b> </h6>
-        <br/>
-          <u style="text-shadow: 2px 2px 4px #ffd4d4;" ><b> מבחינה טכנית </b></u> 
+          <u style="text-shadow: 2px 2px 4px #000000;" ><b> מבחינה טכנית </b></u> 
           <p > <b> סגור לעריכה חיצונית של דפי אינטרנט. המידע אינו דינאמי והוא לקריאה בלבד הוא מוזן על ידי בוני האתרים Web 1.0  </b> </p>
           <p><b> פתוח גם לקריאה וגם לכתיבה של משתמשים המידע משותף בין משתמשים שונים Web 2.0  </b></p>
           <p><b>  פתוח לקריאה ולכתיבה. בנוסף, ניתן לבצע עריכת דפי אינטרנט.  Web 3.0  </b></p>
-          <u style="text-shadow: 2px 2px 4px #ffd4d4;"><b> מבחינה חברתית </b></u> 
+          <u style="text-shadow: 2px 2px 4px #000000;"><b> מבחינה חברתית </b></u> 
           <p><b>   אין תקשורת בין משתמשים. המשתמש רק צופה בתכני האינטרנט  Web 1.0   </b></p>
           <p><b>  מאפשר למשתמשים לתקשר אחד עם השני בצורה יותר חופשית. הוא מעודד שיתוף מידע וקשרים  Web 2.0  </b></p>
           <p><b> מספק  שירות אינטראקטיבי בו יש אינטראקציה בין מחשב למחשב  Web 3.0</b> </p>
-          <u style="text-shadow: 2px 2px 4px #ffd4d4;"><b> מבחינת אחזור והפקת מידע </b></u> 
+          <u style="text-shadow: 2px 2px 4px #000000;"><b> מבחינת אחזור והפקת מידע </b></u> 
           <p><b> המידע שמור בספריות שמהן מבצעים את איחזור המידע Web 1.0  </b></p>
           <p><b>  המידע מופק ע"י תגיות Web 2.0 </b></p>
           <p><b> המידע מופק ע"י למידת מכונה Web 3.0 </b>  </p>
           <br/>
         <br/>
-        <div style="text-shadow: 1px 1px 1px #ffd4d4;">
+        <div style="text-shadow: 1px 1px 1px #000000;">
         <h7 style="text-shadow: 2px 2px 4px #000000;color: rgb(255, 255, 255); font-size:7mm" ><b>Use cases : </b> </h7>
        <br/>
        <u style="font-size:8mm;color: rgb(0, 0, 0); ">  ________________________________________________________ </u>
        <br/>
         <br/>
-        <u style="text-shadow: 2px 2px 4px #ffd4d4;" ><b> תרחיש שימוש Web 1.0 - </b></u> 
+        <u style="text-shadow: 2px 2px 4px #000000;" ><b> תרחיש שימוש Web 1.0 - </b></u> 
         <br/>
         <u><b>  שם התרחיש – </b></u> 
-        <p><b>   "חיפוש השאילתה : "עורכת דין איילה שמעוני </b></p>
+        <p><b> חיפוש השאילתה : "סביבות פיתוח באינטרנט" </b></p>
         <u><b>שחקן ראשי –  </b></u> 
         <p><b>   משתמש </b></p>
         <u><b> בעלי עניין –  </b></u> 
-        <p><b>   איילה שמעוני ובונת האתר שלה דנה צרור </b></p>
+        <p><b> בוני אתרים מתחילים </b></p>
         <u><b>  תרחיש עיקרי –  </b></u> 
         <br/>
-        <ol dir="rtl" style="color: rgb(0, 0, 0); ">
+        <ol dir="rtl"  >
          <li><b>המשתמש נכנס לדפדפן</b></li><br/>
-         <li><b>	המשתמש מזין בתיבת החיפוש "עורכת דין איילה שמעוני" </b></li><br/>
+         <li><b>	המשתמש מזין בתיבת החיפוש "סביבות פיתוח באינטרט" </b></li><br/>
          <li><b>המשתמש לוחץ חיפוש	</b></li><br/>
          <li><b>	הדפדפן מציג למשתמש מספר תוצאות מצומצם ביותר ובתוצאה הראשונה את השאילתה המבוקשת</b></li><br/>
        </ol>
        <u style="font-size:8mm;color: rgb(0, 0, 0); ">  ________________________________________________________ </u>
        <br/>
       <br/>
-       <u style="text-shadow: 2px 2px 4px #ffd4d4;" ><b> תרחיש שימוש Web 2.0 - </b></u> 
+       <u style="text-shadow: 2px 2px 4px #000000;" ><b> תרחיש שימוש Web 2.0 - </b></u> 
        <br/>
        <u><b>  שם התרחיש – </b></u> 
-       <p><b>   "חיפוש השאילתה : "עורכת דין איילה שמעוני </b></p>
+       <p><b> חיפוש השאילתה : "סביבות פיתוח באינטרנט" </b></p>
        <u><b>שחקן ראשי –  </b></u> 
        <p><b>   משתמש </b></p>
        <u><b> בעלי עניין –  </b></u> 
-       <p><b>   איילה שמעוני ובונת האתר שלה דנה צרור </b></p>
+       <p><b> בוני אתרים מתחילים </b></p>
        <u><b>  תרחיש עיקרי –  </b></u> 
        <br/>
-       <ol dir="rtl" style="color: rgb(0, 0, 0); ">
+       <ol dir="rtl" >
         <li><b>המשתמש נכנס לדפדפן</b></li><br/>
-        <li><b>	המשתמש מזין בתיבת החיפוש "עורכת דין איילה שמעוני" </b></li><br/>
+        <li><b>	המשתמש מזין בתיבת החיפוש "סביבות פיתוח באינטרט" </b></li><br/>
         <li><b>המשתמש לוחץ חיפוש	</b></li><br/>
-        <li><b>	הדפדפן מציג למשתמש מספר תוצאות רחב על פי תגיות כמו עורך דין, איילה, שמעוני, ובתוצאה הראשונה את השאילתה המבוקשת</b></li><br/>
+        <li><b>	הדפדפן מציג למשתמש מספר תוצאות רחב על פי תגיות כמו פיתוח, סביבות, אינטרנט, ובתוצאה הראשונה את השאילתה המבוקשת</b></li><br/>
       </ol>
       <u style="font-size:8mm;color: rgb(0, 0, 0); ">  ________________________________________________________ </u>
       <br/>
       <br/>
-      <u style="text-shadow: 2px 2px 4px #ffd4d4;" ><b> תרחיש שימוש Web 3.0 - </b></u> 
+      <u style="text-shadow: 2px 2px 4px #000000;" ><b> תרחיש שימוש Web 3.0 - </b></u> 
       <br/>
       <u><b>  שם התרחיש – </b></u> 
-      <p><b>   "חיפוש השאילתה : "עורכת דין איילה שמעוני </b></p>
+      <p><b> חיפוש השאילתה : "סביבות פיתוח באינטרנט" </b></p>
       <u><b>שחקן ראשי –  </b></u> 
       <p><b>   משתמש </b></p>
       <u><b> בעלי עניין –  </b></u> 
-      <p><b>   איילה שמעוני ובונת האתר שלה דנה צרור </b></p>
+      <p><b> בוני אתרים מתחילים </b></p>
       <u><b>  תרחיש עיקרי –  </b></u> 
       <br/>
-      <ol dir="rtl" style="color: rgb(0, 0, 0); ">
+      <ol dir="rtl" >
        <li><b>המשתמש נכנס לדפדפן</b></li><br/>
-       <li><b>		המשתמש מזין לדפדפן "עו"  </b></li><br/>
-       <li><b>הדפדפן מציע למשתמש את התוצאה - "עורכת דין איילה שמעוני"	</b></li><br/>
+       <li><b>		המשתמש מזין לדפדפן "סביב"  </b></li><br/>
+       <li><b>הדפדפן מציע למשתמש את התוצאה - "סביבות פיתוח באינטרנט"	</b></li><br/>
        <li><b>המשתמש לוחץ חיפוש	</b></li><br/>
-       <li><b>	הדפדפן מציג למשתמש מספר תוצאות רחב על פי תגיות כמו עורך דין, איילה, שמעוני, ובתוצאה הראשונה את השאילתה המבוקשת</b></li><br/>
+       <li><b>	הדפדפן מציג למשתמש מספר תוצאות רחב על פי תגיות כמו פיתוח, סביבות, אינטרנט, ובתוצאה הראשונה את השאילתה המבוקשת</b></li><br/>
+
      </ol>
     </div>
 
@@ -581,11 +464,20 @@ li a:hover:not(.active) {
         <br/>
         <br/>
         <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         </section>
 
     <!----- contact ----->
-        <section id="contact" class="container" style="text-align-last:left ;direction:ltr" >
-            <form id="contact" action="mailto:danayevd@post.bgu.ac.il" method="post" enctype="text/plain">
+    
+        <section  style="margin: auto;" >
+          
+            <form id="contact"  action="mailto:danayevd@post.bgu.ac.il" method="post" enctype="text/plain" style="margin-right: 40%;scroll-margin-block: 150px;direction: ltr;">
               <h3 style="text-align-last: center;">צור קשר</h3>
               <br/>
               <input placeholder="Your name" type="text" name="name" >
@@ -604,14 +496,7 @@ li a:hover:not(.active) {
                 <button  type="submit" id="contact-submit" data-submit="...Sending" onclick="add()">Submit</button>
               </fieldset>
             </form>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>  <br/>
-            <br/>
-            <br/>
-            <br/>
+          
             <br/>
         </section>
 
